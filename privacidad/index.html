@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidad — Don Cron</title>
+  <meta name="description" content="Política de Privacidad de la app Don Cron Publish: qué datos toca, con qué fin, dónde se almacenan y cómo revocar el acceso a las cuentas de YouTube y TikTok del canal.">
+  <link rel="canonical" href="https://don-cron.com/privacidad/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23080b10' stroke='%237c6bff' stroke-width='3'/%3E%3Ctext x='32' y='41' font-family='Space Grotesk,Inter,sans-serif' font-size='24' font-weight='700' fill='%2306d6a0' text-anchor='middle'%3EDC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="/">
+        <span class="mark-dc" aria-hidden="true">DC</span>
+        Don Cron
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="/">Inicio</a>
+        <a href="/terminos/">Términos</a>
+        <a href="/privacidad/" aria-current="page">Privacidad</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section lang="es">
+      <h1>Política de Privacidad</h1>
+      <p class="legal-meta">
+        Fecha de vigencia: 12 de septiembre de 2026. Aplica a la aplicación
+        <strong>Don Cron Publish</strong> y al sitio
+        <a href="https://don-cron.com/">don-cron.com</a>.
+      </p>
+
+      <h2>1. Resumen</h2>
+      <p>
+        Don Cron Publish es una herramienta interna de línea de comandos que
+        usa únicamente el titular del canal Don Cron (Lucas Cristaldo) para
+        publicar sus propios videos en sus propias cuentas de YouTube y
+        TikTok. No tiene usuarios de terceros: nadie más se registra, inicia
+        sesión ni conecta cuentas a través de esta app. Esta política describe
+        qué datos toca la app, con qué fin, dónde se guardan y cómo se pueden
+        revocar.
+      </p>
+
+      <h2>2. Qué datos toca la app</h2>
+      <ul>
+        <li>
+          <strong>Metadatos del video:</strong> título, descripción y
+          hashtags de cada video que se publica.
+        </li>
+        <li>
+          <strong>El archivo de video (mp4)</strong> que se sube a YouTube y
+          TikTok.
+        </li>
+        <li>
+          <strong>Información básica de la cuenta</strong> que devuelven las
+          APIs de YouTube (Data API v3) y TikTok (Content Posting API) al
+          autenticarse: identificador del canal/cuenta y estado de la
+          publicación (éxito, error, ID del video publicado).
+        </li>
+      </ul>
+      <p>
+        Todos estos datos pertenecen al propio titular del canal. La app no
+        recolecta datos de espectadores, de otros usuarios de YouTube o
+        TikTok, ni de visitantes de este sitio.
+      </p>
+
+      <h2>3. Con qué fin se usan</h2>
+      <p>
+        Exclusivamente para publicar los videos del canal Don Cron en las
+        cuentas de YouTube (<a href="https://www.youtube.com/@Don-Cron" target="_blank" rel="noopener">@Don-Cron</a>)
+        y TikTok (<a href="https://www.tiktok.com/@eldoncron" target="_blank" rel="noopener">@eldoncron</a>)
+        del propio titular. No se usan con fines publicitarios, de
+        perfilado, ni se comparten con terceros.
+      </p>
+
+      <h2>4. Dónde se almacenan</h2>
+      <p>
+        Los tokens de autenticación OAuth y los archivos de video se guardan
+        localmente en la máquina del titular, o como secrets cifrados en
+        GitHub Actions cuando la publicación corre en ese entorno. No se
+        almacenan en ninguna base de datos de terceros ni en ningún servidor
+        expuesto públicamente.
+      </p>
+
+      <h2>5. Retención</h2>
+      <p>
+        Los tokens y los metadatos se conservan hasta que el titular los
+        elimina o los revoca manualmente. No hay un plazo de borrado
+        automático porque no existe una cuenta de usuario que expire: es una
+        herramienta de uso personal y continuo del propio titular.
+      </p>
+
+      <h2>6. No se comparte ni se vende</h2>
+      <p>
+        Ningún dato tocado por Don Cron Publish se comparte, se vende ni se
+        cede a terceros. La app no tiene integraciones de analítica,
+        publicidad ni monetización de datos.
+      </p>
+
+      <h2>7. Sin usuarios de terceros</h2>
+      <p>
+        Esta app no ofrece registro ni inicio de sesión a otras personas. No
+        existe una base de usuarios externa cuyos datos deban protegerse más
+        allá de los del propio titular.
+      </p>
+
+      <h2>8. Cómo revocar el acceso</h2>
+      <p>
+        El titular puede revocar el acceso de Don Cron Publish a sus cuentas
+        en cualquier momento desde:
+      </p>
+      <ul>
+        <li>
+          Google: <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">myaccount.google.com/connections</a>
+          (aplicaciones y servicios de terceros conectados).
+        </li>
+        <li>
+          TikTok: configuración de la cuenta → "Seguridad" → "Aplicaciones
+          conectadas", en la app o en
+          <a href="https://www.tiktok.com/setting" target="_blank" rel="noopener">tiktok.com/setting</a>.
+        </li>
+      </ul>
+      <p>
+        Además, el titular puede borrar los tokens guardados localmente o los
+        secrets de GitHub Actions en cualquier momento, lo que revoca el
+        acceso local de inmediato.
+      </p>
+
+      <h2>9. YouTube API Services</h2>
+      <p>
+        Don Cron Publish usa YouTube API Services. Al usarla, se aplican
+        además la
+        <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>
+        y los
+        <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Términos del Servicio de YouTube</a>.
+      </p>
+
+      <h2>10. TikTok Content Posting API</h2>
+      <p>
+        La publicación en TikTok se realiza a través de la TikTok Content
+        Posting API (scope <code>video.publish</code>), sujeta a los
+        términos y políticas de desarrolladores de TikTok.
+      </p>
+
+      <h2>11. Contacto</h2>
+      <p>
+        Para consultas sobre esta política, escribí a
+        <a href="mailto:usagiteks@gmail.com">usagiteks@gmail.com</a>.
+      </p>
+    </section>
+
+    <hr class="lang-divider">
+
+    <section lang="en">
+      <span class="lang-tag">English version</span>
+      <h1>Privacy Policy</h1>
+      <p class="legal-meta">
+        Effective date: September 12, 2026. Applies to the
+        <strong>Don Cron Publish</strong> application and to
+        <a href="https://don-cron.com/">don-cron.com</a>.
+      </p>
+
+      <h2>1. Summary</h2>
+      <p>
+        Don Cron Publish is an internal command-line tool used solely by the
+        Don Cron channel owner (Lucas Cristaldo) to publish his own videos to
+        his own YouTube and TikTok accounts. It has no third-party users: no
+        one else signs up, logs in, or connects accounts through this app.
+        This policy describes what data the app touches, for what purpose,
+        where it is stored, and how it can be revoked.
+      </p>
+
+      <h2>2. What data the app touches</h2>
+      <ul>
+        <li>
+          <strong>Video metadata:</strong> title, description and hashtags
+          for each published video.
+        </li>
+        <li>
+          <strong>The video file (mp4)</strong> uploaded to YouTube and
+          TikTok.
+        </li>
+        <li>
+          <strong>Basic account information</strong> returned by the YouTube
+          (Data API v3) and TikTok (Content Posting API) APIs upon
+          authentication: channel/account identifier and publish status
+          (success, error, published video ID).
+        </li>
+      </ul>
+      <p>
+        All of this data belongs to the channel owner himself. The app does
+        not collect data from viewers, from other YouTube or TikTok users, or
+        from visitors of this site.
+      </p>
+
+      <h2>3. Purpose of use</h2>
+      <p>
+        Exclusively to publish Don Cron's videos to the owner's own YouTube
+        (<a href="https://www.youtube.com/@Don-Cron" target="_blank" rel="noopener">@Don-Cron</a>)
+        and TikTok (<a href="https://www.tiktok.com/@eldoncron" target="_blank" rel="noopener">@eldoncron</a>)
+        accounts. Data is not used for advertising, profiling, or shared with
+        third parties.
+      </p>
+
+      <h2>4. Where it is stored</h2>
+      <p>
+        OAuth authentication tokens and video files are stored locally on the
+        owner's machine, or as encrypted GitHub Actions secrets when
+        publishing runs in that environment. They are not stored in any
+        third-party database or on any publicly exposed server.
+      </p>
+
+      <h2>5. Retention</h2>
+      <p>
+        Tokens and metadata are kept until the owner manually deletes or
+        revokes them. There is no automatic deletion period because there is
+        no expiring user account: this is a personal, ongoing tool used by
+        the owner himself.
+      </p>
+
+      <h2>6. No sharing or selling</h2>
+      <p>
+        No data touched by Don Cron Publish is shared, sold, or transferred
+        to third parties. The app has no analytics, advertising, or data
+        monetization integrations.
+      </p>
+
+      <h2>7. No third-party users</h2>
+      <p>
+        This app does not offer sign-up or sign-in to other people. There is
+        no external user base whose data needs protecting beyond the
+        owner's own.
+      </p>
+
+      <h2>8. How to revoke access</h2>
+      <p>
+        The owner can revoke Don Cron Publish's access to his accounts at any
+        time from:
+      </p>
+      <ul>
+        <li>
+          Google: <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">myaccount.google.com/connections</a>
+          (connected third-party apps and services).
+        </li>
+        <li>
+          TikTok: account settings → "Security" → "Connected apps and
+          services", in the app or at
+          <a href="https://www.tiktok.com/setting" target="_blank" rel="noopener">tiktok.com/setting</a>.
+        </li>
+      </ul>
+      <p>
+        Additionally, the owner can delete the locally stored tokens or the
+        GitHub Actions secrets at any time, which revokes local access
+        immediately.
+      </p>
+
+      <h2>9. YouTube API Services</h2>
+      <p>
+        Don Cron Publish uses YouTube API Services. By using it, the
+        <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
+        and the
+        <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>
+        also apply.
+      </p>
+
+      <h2>10. TikTok Content Posting API</h2>
+      <p>
+        Publishing to TikTok is done through the TikTok Content Posting API
+        (<code>video.publish</code> scope), subject to TikTok's developer
+        terms and policies.
+      </p>
+
+      <h2>11. Contact</h2>
+      <p>
+        For questions about this policy, write to
+        <a href="mailto:usagiteks@gmail.com">usagiteks@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Lucas Cristaldo — Don Cron</span>
+      <div class="footer-links">
+        <a href="/">Inicio</a>
+        <a href="/terminos/">Términos</a>
+        <a href="mailto:usagiteks@gmail.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
