@@ -32,10 +32,21 @@ repo (`/`). El archivo `CNAME` apunta el sitio a `don-cron.com`.
 
 La home (`index.html`) incluye una sección **"Últimos videos"** (`#videos`)
 con los Shorts más recientes del canal, embebidos con iframes de
-`youtube-nocookie.com` (modo de privacidad mejorada). La lista de videos se
-mantiene a mano, directamente en el markup de `index.html`: para agregar o
-quitar un video hay que editar esa sección (y, si corresponde, la versión en
-inglés) a mano. No hay generación automática ni feed dinámico.
+`youtube-nocookie.com` (modo de privacidad mejorada). Se muestran como un
+**carrusel horizontal** (`.video-carousel`, CSS `scroll-snap`, sin
+JavaScript) para que la sección no crezca en altura a medida que se suman
+videos.
+
+Reglas de la lista (a mano, directamente en el markup de `index.html`):
+
+- **Orden: el más nuevo primero.** El video publicado más recientemente va
+  primero en el carrusel.
+- **Tope de 8 tarjetas.** Al agregar la 9ª, hay que sacar la última (la más
+  vieja) para no acumular videos indefinidamente. Hay un comentario HTML en
+  `index.html`, justo arriba de la lista, que recuerda esta regla.
+- Para agregar o quitar un video hay que editar esa sección (y, si
+  corresponde, la versión en inglés) a mano. No hay generación automática ni
+  feed dinámico.
 
 ## Alcance legal
 
