@@ -28,6 +28,15 @@ CNAME                Dominio custom para GitHub Pages
 Se despliega con **GitHub Pages**, sirviendo desde la rama `main`, raíz del
 repo (`/`). El archivo `CNAME` apunta el sitio a `don-cron.com`.
 
+## Home
+
+La home (`index.html`) incluye una sección **"Últimos videos"** (`#videos`)
+con los Shorts más recientes del canal, embebidos con iframes de
+`youtube-nocookie.com` (modo de privacidad mejorada). La lista de videos se
+mantiene a mano, directamente en el markup de `index.html`: para agregar o
+quitar un video hay que editar esa sección (y, si corresponde, la versión en
+inglés) a mano. No hay generación automática ni feed dinámico.
+
 ## Alcance legal
 
 Los textos de `terminos/` y `privacidad/` describen específicamente el uso de
